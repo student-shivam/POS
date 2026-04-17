@@ -23,8 +23,13 @@ import Spinner from "./Spinner";
 
 const { Header, Sider, Content } = Layout;
 
+const SOCKET_URL =
+  process.env.REACT_APP_SOCKET_URL ||
+  process.env.REACT_APP_API_URL ||
+  "http://localhost:8080";
+
 // Global socket instance
-const socket = io("http://localhost:8080");
+const socket = io(SOCKET_URL);
 
 const DefaultLayout = ({ children }) => {
   const navigate = useNavigate();
