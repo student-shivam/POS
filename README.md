@@ -1,6 +1,7 @@
 # 🍽️ Ravindra POS - MERN Stack Point of Sale System
 
 A modern, responsive Point of Sale (POS) system built with the MERN stack (MongoDB, Express.js, React, Node.js). Designed for restaurants to manage orders, inventory, customers, and billing with a beautiful, professional UI.
+live =https://possyste.netlify.app/
 
 ## 📋 Table of Contents
 
@@ -1242,8 +1243,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 👨‍💻 Author
 
 **Ravindra Yadav**
-- Email: ravindra@example.com
-- Phone: +91 9099484949
+- Email: codewithravindra8201@gmail.com
+- Phone: +91 7706876498
 
 ---
 
@@ -1251,8 +1252,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For issues, questions, or suggestions:
 - Create an issue on GitHub
-- Contact: ravindra@example.com
-- WhatsApp: +91 9099484949
+- Contact: codewithravindra8201@gmail.com
+- WhatsApp: +91 7706876498
 
 ---
 
