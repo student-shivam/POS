@@ -160,12 +160,17 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  min-width: 0;
 }
 
 .header-title {
   font-size: 1rem;
   font-weight: 700;
   color: var(--text-primary) !important;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .header-glass,
@@ -1234,8 +1239,8 @@
 
   .header-left {
     width: auto;
-    gap: 0.65rem;
-    padding-right: 150px;
+    gap: 0.5rem;
+    padding-right: 136px;
   }
 
   .header-right {
@@ -1246,6 +1251,14 @@
     width: auto;
     justify-content: flex-end;
     flex-wrap: nowrap;
+  }
+
+  .header-branding {
+    max-width: 110px;
+  }
+
+  .header-title {
+    font-size: 0.95rem;
   }
 
   .page-header {
@@ -1309,6 +1322,14 @@
   .header-glass {
     height: 60px !important;
     line-height: 60px !important;
+  }
+
+  .header-left {
+    padding-right: 124px;
+  }
+
+  .header-branding {
+    max-width: 92px;
   }
 
   .trigger-btn,

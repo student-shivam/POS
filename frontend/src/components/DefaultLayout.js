@@ -207,7 +207,7 @@ const DefaultLayout = ({ children }) => {
               aria-label="Toggle navigation"
             />
             <div className="header-branding">
-              <span className="header-title">Ravindra POS</span>
+              <span className="header-title">{isMobile ? "Ravindra" : "Ravindra POS"}</span>
             </div>
           </div>
           <div className="header-right">
