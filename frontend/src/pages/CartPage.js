@@ -1,14 +1,12 @@
 import React, { useEffect, useRef, useState } from "react";
 import DefaultLayout from "../components/DefaultLayout";
 import API from "../api";
-import { useNavigate } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import {
   DeleteOutlined,
   PlusOutlined,
   MinusOutlined,
   CreditCardOutlined,
-  DollarOutlined,
   UserOutlined,
   PhoneOutlined,
   ShoppingCartOutlined,
@@ -41,7 +39,6 @@ const CartPage = () => {
   const [invoicePayload, setInvoicePayload] = useState(null);
   const [customerData, setCustomerData] = useState({});
   const dispatch = useDispatch();
-  const navigate = useNavigate();
   const { cartItems } = useSelector((state) => state.rootReducer);
   const printRef = useRef();
   const [form] = Form.useForm();

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import DefaultLayout from "./../components/DefaultLayout";
 import API from "../api";
-import { Row, Col, Input, Tag, Space, Empty } from "antd";
+import { Row, Col, Input, Empty } from "antd";
 import { useDispatch } from "react-redux";
 import { SearchOutlined } from "@ant-design/icons";
 import ItemList from "../components/ItemList";
